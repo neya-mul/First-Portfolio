@@ -1,0 +1,200 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Nav bar */
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nvt{
+    font-size: 45px;
+    font-weight: 800;
+}
+.r{
+color: #FD6E0A;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+ 
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark{
+    color: black;
+}
+.btn{
+     background-color: #FD6E0A;
+     color: white;
+     font-weight: bold;
+     padding: 18px 35px ;
+     border-radius: 5px;
+     font-size: 20px;
+     border: none;
+}
+.greetings{
+    font-size: 30px;
+    font-weight: 600px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+#marry{
+    font-size: 60px;
+    margin-left: 40px;
+}
+.content{
+    width: 585px;
+    height: 475px;
+    margin-left: 250px;
+     margin-top: 200px;
+}
+.description{
+    font-size: 18px;
+}
+.image{
+     width: 585px;
+    height:  356px;
+    margin-top: 80px;
+} 
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    height: 919px;
+    background-color: #FFF8F3;
+}
+.main1 {
+    background-color: #FFF8F3;
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto ;
+    border: 1px solid white;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+.about-sec{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 280px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+.titles{
+    font-weight: lighter;
+}
+.descriptions{
+    font-weight: bolder;
+}
+.card{
+    width: 200px;
+    height: 320;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    background-color: white;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.main2{
+    width: 1200px;
+    margin: 0 auto;
+}
+.education-sector{
+   width: 40%;
+}
+.experience-sector{
+     width: 40%;
+}
+.main3{
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 80px;
+}
+.education-and-experience{
+    display: flex;
+    justify-content: space-around;
+
+}
+.resume-title{
+    text-align: center;
+}
+#button{
+    margin-top: 40px;
+    text-align: center;
+}
+.footer{
+    background-color:#FFF8F3 ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.connect-section{
+   
+    width: 30%;
+    align-items: center;
+    margin-top: 100px ;
+}
+.form-section{
+    display: inline ;
+    width: 30%;
+}  
+.input-design{
+
+    border-radius: 5px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+.msg-design{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+#submit{
+     margin: 5px;
+}
+button:hover{
+    background-color:whitesmoke;
+    color: black;
+    font-size: 23px;
+    box-shadow: 0px 6px 50px 0px rgb(129, 129, 174);
+}
+#neyamul{
+    font-weight: bolder;
+    text-align: center;
+   
+
+}
