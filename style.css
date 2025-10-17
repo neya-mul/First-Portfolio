@@ -198,20 +198,15 @@ button:hover{
     font-weight: bolder;
     text-align: center;
 }
-.hide{
-    display: none;
-}
-
-@media screen and (max-width:576px){
+/* amall device update */
+@media screen and (max-width:768.98px){
      .main2{
         margin:0 auto;
         width: 260px;
-        /* border: 1px solid; */
         margin-top: 15px;
      }
      .main2-all{
-        margin: 0 auto;
-        
+        margin: 0 auto;  
      }
     .cards{
         flex-direction: column;
@@ -225,9 +220,11 @@ button:hover{
      .main3{
         margin: 0 auto;
         width: 400px;
-        /* border: 1px solid; */
-        margin-top: 20px;
-        margin-left:75px 
+        margin-top: 30px;
+        margin-left:50px ;
+     }
+     .education-sector{
+        text-align: center;
      }
      .footer{
         flex-direction: column;
@@ -237,22 +234,17 @@ button:hover{
      }
      .about-sec{
         height: 240px;
-        /* border: 1px solid; */
         margin: 0 auto;
      }
      .main1{
         width: 300px;
         height: 650px;
         margin: 0 auto;
-        /* border: 1px solid; */
         margin-top: 10px;
     }
      .nvt{
         flex-direction: column;
-        /* border: 1px solid; */
         margin-left: 40px;
-       
-
     }
      .nvt ul{
         flex-direction: column;
@@ -263,8 +255,6 @@ button:hover{
     }
      .content{
       margin-left: -1px;
-      /* border: 1px solid; */
-      
     }
      .content p{
         width: 150px;
@@ -279,8 +269,6 @@ button:hover{
         height: auto;
         margin-top: 45px;
         margin-left: 60px;
-        /* margin: 0 auto; */
-        /* border: 1px solid; */
     }
     .header{
         background-color: #fff;
@@ -288,9 +276,8 @@ button:hover{
         background-position: top right,bottom;
         height: 1480px;
         margin-left:70px ;
-        /* margin: 0 auto; */
-        /* border: 1px solid; */
         align-items: center;
+       
     }
     .title{
         font-size: 40px;
@@ -300,6 +287,7 @@ button:hover{
    }
    .connect-section,.form-section{
     margin-left:100px;
-    /* border: 1px solid; */
-   }
+   } 
 }
+/* small device update complete */
+
