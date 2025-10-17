@@ -176,12 +176,14 @@ ul li a{
     margin: 5px;
     padding: 5px;
     border: none;
+    width: 300px;
 }
 .msg-design{
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
     border: none;
+    width: 300px;
 }
 #submit{
      margin: 5px;
@@ -195,6 +197,109 @@ button:hover{
 #neyamul{
     font-weight: bolder;
     text-align: center;
-   
+}
+.hide{
+    display: none;
+}
 
+@media screen and (max-width:576px){
+     .main2{
+        margin:0 auto;
+        width: 260px;
+        /* border: 1px solid; */
+        margin-top: 15px;
+     }
+     .main2-all{
+        margin: 0 auto;
+        
+     }
+    .cards{
+        flex-direction: column;
+        text-align: center;
+        gap: 7px;
+    }
+     .about-sec{
+        margin: 0;
+        width: 200px;
+    }
+     .main3{
+        margin: 0 auto;
+        width: 400px;
+        /* border: 1px solid; */
+        margin-top: 20px;
+        margin-left:75px 
+     }
+     .footer{
+        flex-direction: column;
+     }
+     .items{
+        flex-direction: column;
+     }
+     .about-sec{
+        height: 240px;
+        /* border: 1px solid; */
+        margin: 0 auto;
+     }
+     .main1{
+        width: 300px;
+        height: 650px;
+        margin: 0 auto;
+        /* border: 1px solid; */
+        margin-top: 10px;
+    }
+     .nvt{
+        flex-direction: column;
+        /* border: 1px solid; */
+        margin-left: 40px;
+       
+
+    }
+     .nvt ul{
+        flex-direction: column;
+        margin-top: -40px;
+    }
+     .banner{
+        flex-direction: column;  
+    }
+     .content{
+      margin-left: -1px;
+      /* border: 1px solid; */
+      
+    }
+     .content p{
+        width: 150px;
+        align-items: center;
+    }
+     .header-button button{
+       display: block;
+       margin-bottom: 7px;
+    }
+     .header img{
+        width: 260px;
+        height: auto;
+        margin-top: 45px;
+        margin-left: 60px;
+        /* margin: 0 auto; */
+        /* border: 1px solid; */
+    }
+    .header{
+        background-color: #fff;
+        width: 400px;
+        background-position: top right,bottom;
+        height: 1480px;
+        margin-left:70px ;
+        /* margin: 0 auto; */
+        /* border: 1px solid; */
+        align-items: center;
+    }
+    .title{
+        font-size: 40px;
+    }
+   .nvt h1{
+     margin-right: 57px;
+   }
+   .connect-section,.form-section{
+    margin-left:100px;
+    /* border: 1px solid; */
+   }
 }
