@@ -253,8 +253,7 @@ button:hover{
 /* Header section query ends here */
    .main1{
     width: 400px;
-    height: 600px;
-       
+    height: 600px; 
    }
    .about-sec{
     width: 350px;
@@ -264,5 +263,61 @@ button:hover{
    .items{
     flex-direction: column;
    }
+/* main1 query ends here */
+  .main2{
+    /* border: 1px solid; */
+    width: auto;
+  }
+   .about-sec{
+    /* border: 1px solid; */
+   }
+   .cards{
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+   }
+   .card{
+    margin-bottom: 10px;
+   }
+   /* main2 query ends here */
+   .main3{
+    width: auto;
+   }
+   .education-and-experience{
+    flex-direction: column;
+   }
+   .education-sector,.experience-sector{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+   }
+   /* main3 ends here */
 
+   .footer{
+    flex-direction: column;
+    height: auto;
+   }
+   .connect-section,.form-section{
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    margin-bottom: 2px;
+   }
+    .form-section{
+      width: 300px;
+      margin: 100px auto;
+      text-align: center;
+      margin-top: 0px;
+    }
+
+   .form-section input{
+    width: 200px;
+   }
+   .form-section textarea{
+    width: 200px;
+   }
+   #neyamul{
+    margin-top: 0px;
+   }
 }
