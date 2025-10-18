@@ -200,3 +200,69 @@ button:hover{
 }
 
 
+.hide{
+    display: none;
+}
+
+
+/* small device media query */
+
+@media screen and (max-width:567px){
+    .nvt{
+        margin-left: -2px;
+        height: 450px;
+    }
+   .nvt,.nvt ul{
+        flex-direction: column;
+  }  
+   .nvt ul{
+        width: 100px;
+        align-items: center;
+  }
+   .nvt h1{
+        margin-right: 39px;
+  }
+  .header{
+    background-position: top right,bottom;
+    height: auto;
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .content{
+    margin-left: -2px;
+    width: 200px;
+    height: auto;
+    margin-top: -4px;
+    padding: 10px;
+  }
+  .header-button button{
+    margin-left:240px ;
+    margin-bottom:3px;
+    font-size: small;
+  }
+  .header-button{
+    margin-top: -130px;
+  }
+  .image img{
+    width: 350px;
+    height: auto;
+    margin-top: -49px;
+    margin-left: 50px;
+  }
+/* Header section query ends here */
+   .main1{
+    width: 400px;
+    height: 600px;
+       
+   }
+   .about-sec{
+    width: 350px;
+    height: auto;
+    margin-top: 20px;
+   }
+   .items{
+    flex-direction: column;
+   }
+
+}
